@@ -1,0 +1,24 @@
+{
+  "name": "cypdemoprj",
+  "version": "1.0.0",
+  "description": "Demo cypress project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joydeep100/cypdemoprj.git"
+  },
+  "author": "joydeep.das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joydeep100/cypdemoprj/issues"
+  },
+  "homepage": "https://github.com/joydeep100/cypdemoprj#readme",
+  "dependencies": {
+    "cypress": "^4.1.0",
+    "cypress-cucumber-preprocessor": "^2.0.1"
+  },
+  "type": "module"
+}
