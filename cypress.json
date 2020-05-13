@@ -1,3 +1,7 @@
 {
-  "testFiles": "**/*.feature"
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": "*.js",
+  "env": {
+        "TAGS": "@smoke"
+    }
 }
