@@ -1,13 +1,23 @@
-## Cypress Framework for UI & REST API Testing
+### Cypress Demo Framework for Web & REST API Testing
 
-### Features used
+Cypress implementation with Cucumber and Page Object Model.
+
+### Environment
+- Linux / Mac / Windows
+
+### Libraries Used.
+- @4tw/cypress-drag-drop
+- cypress
+- cypress-cucumber-preprocessor
+- underscore
+
+### Techniques used
 - Page Object Model
 - BDD (Cucumber)
 - Custom Commands
-- Common utilities
-- Drag and Drop element
+- Drag and Drop
 - REST API testing (GET, POST, PUT, PATCH & DELETE)
-- Tags
+- Test Tags
 
 ### How to install
 - Pull the branch
@@ -20,6 +30,6 @@ a. Headless mode
 
 - run the command ```npx cypress run```
 
-b. Running from the Test Runner
+b. Running from the `Test Runner`
 
 - run the command ```npx cypress open``` and click on the required feature files
