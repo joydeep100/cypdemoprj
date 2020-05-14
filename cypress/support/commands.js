@@ -1,4 +1,4 @@
-// Here we can add custom commands
+// Add custom commands
 
 Cypress.Commands.add("drag_drop", {prevSubject: "element"}, (subject, target) => {
   cy.wrap(subject).trigger("dragstart");

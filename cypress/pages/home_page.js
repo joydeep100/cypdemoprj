@@ -1,5 +1,4 @@
-import { web_url,api_url } from '../../variables/variables.js'
-
+import { web_url } from '../variables/variables.js'
 
 export default class HomePage{
 
@@ -37,4 +36,5 @@ export default class HomePage{
 	checkIfItemIsDroppedSucessfully(validation_txt){
 		cy.get(home_page_locators['drop_area']).should('contain', validation_txt);
 	}
+	
 }

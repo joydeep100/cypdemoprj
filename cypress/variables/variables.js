@@ -1,4 +1,2 @@
-export const web_url = 'www.demoqa.com'
-export const api_url = 'www.reqres.in'
-
-// module.exports = {web_url,api_url}
+export const web_url = 'https://www.demoqa.com'
+export const api_url = 'https://reqres.in/api'

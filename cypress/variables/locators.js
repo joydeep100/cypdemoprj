@@ -6,5 +6,3 @@ export const home_page_locators = {
 	'drag_item':'.ui-draggable',
 	'drop_area':'.ui-droppable'
 }
-
-// module.exports = home_page_locators

@@ -1,4 +1,5 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
+
 import { home_page_locators } from '../../variables/locators.js'
 
 import { HomePage } from  '../../pages/home_page.js'
