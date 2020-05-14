@@ -7,6 +7,7 @@
 - Common utilities
 - Drag and Drop element
 - REST API testing (GET, POST, PUT, PATCH & DELETE)
+- Tags
 
 ### How to install
 - Pull the branch
