@@ -21,4 +21,4 @@ a. Headless mode
 
 b. Running from the Test Runner
 
-- run the command ```npm cypress open``` and click on the required feature files
+- run the command ```npx cypress open``` and click on the required feature files
