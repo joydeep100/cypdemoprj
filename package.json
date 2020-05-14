@@ -1,7 +1,7 @@
 {
   "name": "cypdemoprj",
   "version": "1.0.0",
-  "description": "Demo cypress project.",
+  "description": "Cypress Automation Framework with BDD and POM",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,10 @@
   },
   "homepage": "https://github.com/joydeep100/cypdemoprj#readme",
   "dependencies": {
+    "@4tw/cypress-drag-drop": "^1.3.1",
     "cypress": "^4.1.0",
     "cypress-cucumber-preprocessor": "^2.0.1",
-    "@4tw/cypress-drag-drop": "^1.3.1"
+    "underscore": "^1.10.2"
   },
   "type": "module"
 }
