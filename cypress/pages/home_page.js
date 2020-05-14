@@ -1,14 +1,17 @@
 import { web_url } from '../variables/variables.js'
 
-export default class HomePage{
+import { home_page_locators } from '../variables/locators.js';
 
-	goToHome(){
-		cy.visit(web_url);
-	}
+export default class HomePage {
 
 	goToUrl(url){
 		cy.visit(url);
 	}
+
+	goToHomePage(){
+		cy.visit(web_url);
+	}
+
 
 	goToLink(link_name){
 		cy.get(home_page_locators['home_page_links']).contains(link_name).click();

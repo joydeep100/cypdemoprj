@@ -1,11 +1,8 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+// Working code for drag and drop source :: https://stackoverflow.com/questions/55361499/how-to-implement-drag-and-drop-in-cypress-test
 
-
-// Working code for drag and drop, source :: https://stackoverflow.com/questions/55361499/how-to-implement-drag-and-drop-in-cypress-test
 const getCoords = ($el) => {
   const domRect = $el[0].getBoundingClientRect()
   const coords = { x: domRect.left + (domRect.width / 2 || 0), y: domRect.top + (domRect.height / 2 || 0) }

@@ -1,4 +1,4 @@
-Feature: To test various scenarios on the home page of the website under test!
+Feature: To test various scenarios on the home page of the website under test
 
 @smoke @regression
 Scenario: To check if the home page is loading sucessfully

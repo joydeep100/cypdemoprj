@@ -1,18 +1,22 @@
 import { object, flatten, rest } from 'underscore'
 import { api_url } from '../variables/variables.js'
 
+// function to parse data passed as a list in steps
 export function readList(data = {}) {
 	return flatten(data.rawTable || []);
 }
 
+// function to parse data passed as a table in steps
 export function readTable(data = {}) {
 	return object(rest(data.rawTable || []));
 }
 
+// function to parse data passed as a table with mutliple attributes in steps
 export function readMultiTable(data = {}) {
 	return (data.hashes() || []);
 }
 
+// function to validate Restful API's like GET, POST etc
 export function requestValidator(req_type,table_data) {
 	const data = readTable(table_data);
 
@@ -29,3 +33,4 @@ export function requestValidator(req_type,table_data) {
 			}
 		})
 }
+

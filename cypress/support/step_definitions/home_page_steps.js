@@ -1,12 +1,12 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
-import { home_page_locators } from '../../variables/locators.js'
+import HomePage  from  '../../pages/home_page.js';		//TODO :: if we give { HomePage } it fails.
 
-import { HomePage } from  '../../pages/home_page.js'
+import { home_page_locators } from '../../variables/locators.js';
 
 Given('I go to the home page', () => {
-	const home_page = new HomePage();
-	home_page.goToHome();
+	let home_page = new HomePage()
+	home_page.goToHomePage()
 });
 
 Given('I visit the following url {string}', (url) => {
@@ -36,7 +36,7 @@ Given('I check if {string} is selected sucessfully', (item) => {
 
 Given('I drag the item and drop it in the droppable area', () => {
  	const home_page = new HomePage();
-	home_page.dragAndDropIteam('.ui-draggable','.ui-droppable');
+	home_page.dragAndDropIteam(home_page_locators['drag_item'],home_page_locators['drop_area']);
 });
 
 Given('I verify if the item is sucessfully dropped', () => {

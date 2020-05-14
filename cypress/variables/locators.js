@@ -1,3 +1,8 @@
+/* 
+common placeholder to store all locators, so that in case any 
+locator changes we need to just it just here!
+*/
+
 export const home_page_locators = {
 	'window_title_txt': '.entry-title',
 	'home_page_links': 'li > a',
@@ -6,3 +11,4 @@ export const home_page_locators = {
 	'drag_item':'.ui-draggable',
 	'drop_area':'.ui-droppable'
 }
+
