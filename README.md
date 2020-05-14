@@ -2,6 +2,8 @@
 
 Cypress implementation with Cucumber and Page Object Model.
 
+[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
+
 ### Environment
 - Linux / Mac / Windows
 
