@@ -7,6 +7,10 @@ Cypress implementation with Cucumber and Page Object Model.
 ### Environment
 - Linux / Mac / Windows
 
+### Dependecy
+- node 
+- npm
+
 ### Libraries Used.
 - @4tw/cypress-drag-drop
 - cypress
